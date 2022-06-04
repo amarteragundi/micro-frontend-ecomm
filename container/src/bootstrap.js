@@ -1,2 +1,4 @@
-import 'products/ProductsIndex'
-import 'cart/CartShow';
+import { mount } from "products/ProductsIndex";
+import "cart/CartShow";
+
+mount(document.querySelector('#dev-product'))
